@@ -1,16 +1,16 @@
 # ================================ zadanie 1 ======================================
-# import re
-# linia_danych = input("wprowadź linię danych z własnym separatorem: ")
-# separator_zrodlowy = input("wprowadz separator uzyty w zdaniu: ")
-# separator_docelowy = input("wprowadz separator docelowy: ")
-#
-# # lista_wyrazow = linia_danych.split(separator_zrodlowy)
-# # print(lista_wyrazow)
-# # nowe_zdanie = separator_docelowy.join(lista_wyrazow)
-# # print(nowe_zdanie)
-#
-# result = re.sub(separator_zrodlowy, separator_docelowy, linia_danych)
-# print(result)
+import re
+linia_danych = input("wprowadź linię danych z własnym separatorem: ")
+separator_zrodlowy = input("wprowadz separator uzyty w zdaniu: ")
+separator_docelowy = input("wprowadz separator docelowy: ")
+
+lista_wyrazow = linia_danych.split(separator_zrodlowy)
+print(lista_wyrazow)
+nowe_zdanie = separator_docelowy.join(lista_wyrazow)
+print(nowe_zdanie)
+
+result = re.sub(separator_zrodlowy, separator_docelowy, linia_danych)
+print(result)
 # # https://docs.python.org/3/library/re.html
 
 # ================================ zadanie 2 i 3 ======================================

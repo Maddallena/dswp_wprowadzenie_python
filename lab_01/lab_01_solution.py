@@ -33,12 +33,12 @@ print(number_float_4)
 def population_count(number):
     return number.bit_count()
 
-population_count(29)
+print(population_count(29))
 
 def check_float(number):
     return number.is_integer()
 
-check_float(29.05)
+print(check_float(29.05))
 
 #========== zad 4 =====================
 

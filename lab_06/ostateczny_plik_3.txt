@@ -1,0 +1,4 @@
+próba zadania drugiego,
+
+ciekawe czy się uda to wykonać
+1,plik,csv,sprawdzam, dzialanie,czas na test
